@@ -1,0 +1,24 @@
+{
+    "name": "bellringerserver",
+    "version": "1.0.0",
+    "description": "Server for redirecting instructions from App to Raspberry Pi",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sabinadams/bell-ringer.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sabinadams/bell-ringer/issues"
+    },
+    "homepage": "https://github.com/sabinadams/bell-ringer#readme",
+    "dependencies": {
+        "cors": "^2.8.4",
+        "express": "^4.16.2",
+        "socket.io": "^2.0.4"
+    }
+}
